@@ -1,0 +1,6 @@
+- name: print the message
+  hosts: mongodb
+  tasks:
+    - name: printing the message
+      ansible.builtin.debug:
+       msg: "MongoDB is running"
