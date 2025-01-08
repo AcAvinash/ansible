@@ -2,7 +2,7 @@
 172.31.89.40
 
 [mongodb:vars]
-MONGO_USERNAME= mongodbadmin
+mongodb_username= mongodbadmin
 MONGO_DB= categories
 NAME=Avinash_inventory
 
