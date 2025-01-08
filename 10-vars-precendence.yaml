@@ -1,14 +1,14 @@
-- name: testing varaiable precendece
+- name: testing variable precedence
   hosts: mongodb
   vars:
     NAME: Avinash_play
   vars_files:
     - variables.yaml
   vars_prompt:
-    - NAME: Username
-      prompt: please enter your name
+    - name: NAME
+      prompt: "Please enter your name"
       private: false
   tasks:
     - name: variable at task level
       ansible.builtin.debug:
-        msg: "{{NAME}}"
+        msg: "{{ NAME }}"
