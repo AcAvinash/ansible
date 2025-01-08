@@ -4,10 +4,10 @@
   #   NAME: Avinash_play
   #vars_files:
   #  - variables.yaml
-  vars_prompt:
-    - name: NAME
-      prompt: "Please enter your name"
-      private: false
+  # vars_prompt:
+  #   - name: NAME
+  #     prompt: "Please enter your name"
+  #     private: false
   tasks:
     - name: variable at task level
   #     vars:
