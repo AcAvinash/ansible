@@ -6,6 +6,6 @@
     DURATION: 110hrs
   # play at task level
   tasks:
-    - name: printing the variables
-      ansible.builtin.debug:
+   - name: printing the variables
+     ansible.builtin.debug:
       msg: "Hello I am learning {{COURSE}} from {{TRAINER}} having course {{DURATION}}"
