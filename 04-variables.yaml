@@ -4,7 +4,7 @@
     COURSE: Devops
     TRAINER: Avinash
     DURATION: 110hrs
-  # play at task level
+  # play level variables
   tasks:
    - name: printing the variables
      ansible.builtin.debug:
