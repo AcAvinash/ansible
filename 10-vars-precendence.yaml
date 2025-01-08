@@ -10,5 +10,8 @@
       private: false
   tasks:
     - name: variable at task level
+      vars:
+        NAME: Avinash-task
       ansible.builtin.debug:
         msg: "{{ NAME }}"
+
