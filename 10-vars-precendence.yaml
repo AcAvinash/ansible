@@ -1,0 +1,14 @@
+- name: testing varaiable precendece
+  hosts: mongodb
+  vars:
+    NAME: Avinash_play
+  vars_files:
+    - variables.yaml
+  vars_prompt:
+    - NAME: Username
+      prompt: please enter your name
+      private: false
+  tasks:
+    - name: variable at task level
+      ansible.builtin.debug:
+        msg: "{{NAME}}"
