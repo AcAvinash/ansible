@@ -13,5 +13,6 @@
       vars:
           money: "20000Rs"
           houses: "3 houses"
-          ansible.builtin.debug:
-            msg: "Money: {{ money }}, Land: {{ land }}, Houses: {{ houses }}"
+      ansible.builtin.debug:
+        msg: "Money: {{ money }}, Land: {{ land }}, Houses: {{ houses }}"
+
